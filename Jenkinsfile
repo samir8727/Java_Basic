@@ -8,7 +8,7 @@ node{
 
 	stage('Build,Test & Package'){
 	echo 'Build the package' //for display purpose
-	sh 'mvn clean compile package..'
+	sh 'mvn clean compile '
 	}
 	stage ('Result'){
 	echo 'Test result are reported'
