@@ -20,7 +20,7 @@ node{
 	stage('Deploy to Test'){
 	echo 'Deploy to test environment'
 	}
-	stage (Test Automation){
+	stage ('Test Automation'){
 	echo 'Deploy to Dev environment'
 	}
 }
